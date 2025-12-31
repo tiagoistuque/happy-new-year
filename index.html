@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz 2026 - TBI Sistemas</title>
+    <style>
+        :root {
+            /* Definição exata da paleta TBI Sistemas */
+            --primary-color: #2FAFAF;
+            /* Teal/Turquesa */
+            --secondary-color: #333333;
+            /* Cinza Escuro */
+            --tertiary-color: #95B24D;
+            /* Verde Oliva */
+            --text-color: #333;
+            --white: #ffffff;
+            --light-bg-teal: #eafbfb;
+            /* Fundo muito suave baseado na cor primária */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            /* Fundo geral levemente cinza para destaque do card */
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--white);
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            /* Gradiente usando a Primária e a Terciária */
+            background: linear-gradient(135deg, var(--primary-color), var(--tertiary-color));
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .content {
+            padding: 50px 40px;
+            text-align: center;
+            flex: 1;
+        }
+
+        /* Estilos para a logo */
+        .logo-placeholder {
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .highlight-box {
+            /* Fundo ajustado para tom de Teal suave e borda Verde */
+            background-color: var(--light-bg-teal);
+            border-left: 6px solid var(--tertiary-color);
+            padding: 25px;
+            margin: 35px 0;
+            text-align: left;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .highlight-box h3 {
+            color: var(--secondary-color);
+            margin-top: 0;
+        }
+
+        .footer {
+            background-color: var(--secondary-color);
+            color: var(--white);
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 0.9rem;
+        }
+
+        .footer p {
+            color: #ccc;
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        /* Botão usando a cor Terciária para Call to Action */
+        .btn {
+            display: inline-block;
+            background-color: var(--tertiary-color);
+            color: var(--white);
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover {
+            background-color: #7a943b;
+            /* Tom mais escuro do verde para hover */
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .highlight-box {
+                text-align: center;
+                border-left: none;
+                border-top: 6px solid var(--tertiary-color);
+                border-radius: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Obrigado pela parceria em 2025</h1>
+            <p>Juntos, construímos soluções que transformam.</p>
+        </header>
+
+        <div class="content">
+            <img src="logo_tbi.png" alt="Logo TBI Sistemas" width="200" class="logo-placeholder">
+
+            <p>Prezados clientes e amigos,</p>
+
+            <p>Ao encerrarmos mais um ciclo, queremos dedicar este momento para agradecer. 2025 foi um ano de desafios,
+                mas, acima de tudo, um ano de grandes realizações ao lado de parceiros como você.</p>
+
+            <p>A confiança depositada na <strong>TBI Sistemas</strong> é o que nos motiva a buscar a excelência em cada
+                linha de código e em cada suporte prestado.</p>
+
+            <div class="highlight-box">
+                <h3>Compromisso para 2026</h3>
+                <p>No próximo ano, nosso foco estará ainda mais voltado para a <strong>inovação e estabilidade</strong>.
+                    Estamos investindo em novas tecnologias para garantir que seus sistemas não sejam apenas
+                    ferramentas, mas verdadeiros motores de crescimento para o seu negócio.</p>
+            </div>
+
+            <p>Desejamos que o seu Ano Novo seja repleto de energia, saúde e prosperidade. Estamos prontos para
+                continuar essa jornada ao seu lado.</p>
+
+            <a href="https://www.tbisistemas.com.br" class="btn">Visite nosso site</a>
+        </div>
+
+        <div class="footer">
+            <strong>TBI Sistemas</strong><br><br>
+            <p>&copy; 2026 Todos os direitos reservados.<br>
+                Feito com tecnologia e dedicação.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
